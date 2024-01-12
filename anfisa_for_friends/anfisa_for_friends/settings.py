@@ -89,8 +89,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Дополнительные директории, где собраны статические файлы проекта.
 STATICFILES_DIRS = [
     BASE_DIR / 'static_dev',
-    ]
+]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
